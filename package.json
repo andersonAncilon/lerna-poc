@@ -1,8 +1,18 @@
 {
-  "version": "1.0.0",
+  "version": "independent",
   "name": "teste-poc",
   "private": false,
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "ignoreChanges": [
+    "**/CHANGELOG.md",
+    "**/node_modules/**",
+    "**/package.json",
+    "**/*.md",
+    "**/perf/**"
+  ],
+  "dependencies": {
+    "g": "^2.0.1"
   }
 }
