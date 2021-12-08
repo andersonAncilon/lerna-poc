@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "teste-poc",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
